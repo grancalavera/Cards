@@ -1,0 +1,265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91AAE4A11362218100DAB4F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AAE4A01362218100DAB4F4 /* UIKit.framework */; };
+		91AAE4A31362218100DAB4F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AAE4A21362218100DAB4F4 /* Foundation.framework */; };
+		91AAE4A51362218100DAB4F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AAE4A41362218100DAB4F4 /* CoreGraphics.framework */; };
+		91AAE4AB1362218100DAB4F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4A91362218100DAB4F4 /* InfoPlist.strings */; };
+		91AAE4AE1362218100DAB4F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AAE4AD1362218100DAB4F4 /* main.m */; };
+		91AAE4B11362218100DAB4F4 /* CardsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AAE4B01362218100DAB4F4 /* CardsAppDelegate.m */; };
+		91AAE4B41362218200DAB4F4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4B21362218200DAB4F4 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		91AAE49C1362218100DAB4F4 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AAE4A01362218100DAB4F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91AAE4A21362218100DAB4F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91AAE4A41362218100DAB4F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91AAE4A81362218100DAB4F4 /* Cards-Info.plist */ = {isa = PBXFileReference; path = "Cards-Info.plist"; sourceTree = "<group>"; };
+		91AAE4AA1362218100DAB4F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		91AAE4AC1362218100DAB4F4 /* Cards-Prefix.pch */ = {isa = PBXFileReference; path = "Cards-Prefix.pch"; sourceTree = "<group>"; };
+		91AAE4AD1362218100DAB4F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91AAE4AF1362218100DAB4F4 /* CardsAppDelegate.h */ = {isa = PBXFileReference; path = CardsAppDelegate.h; sourceTree = "<group>"; };
+		91AAE4B01362218100DAB4F4 /* CardsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardsAppDelegate.m; sourceTree = "<group>"; };
+		91AAE4B31362218200DAB4F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91AAE4991362218100DAB4F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AAE4A11362218100DAB4F4 /* UIKit.framework in Frameworks */,
+				91AAE4A31362218100DAB4F4 /* Foundation.framework in Frameworks */,
+				91AAE4A51362218100DAB4F4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91AAE4911362218100DAB4F4 = {
+			isa = PBXGroup;
+			children = (
+				91AAE4A61362218100DAB4F4 /* Cards */,
+				91AAE49F1362218100DAB4F4 /* Frameworks */,
+				91AAE49D1362218100DAB4F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91AAE49D1362218100DAB4F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91AAE49C1362218100DAB4F4 /* Cards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91AAE49F1362218100DAB4F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91AAE4A01362218100DAB4F4 /* UIKit.framework */,
+				91AAE4A21362218100DAB4F4 /* Foundation.framework */,
+				91AAE4A41362218100DAB4F4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91AAE4A61362218100DAB4F4 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				91AAE4AF1362218100DAB4F4 /* CardsAppDelegate.h */,
+				91AAE4B01362218100DAB4F4 /* CardsAppDelegate.m */,
+				91AAE4B21362218200DAB4F4 /* MainWindow.xib */,
+				91AAE4A71362218100DAB4F4 /* Supporting Files */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		91AAE4A71362218100DAB4F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91AAE4A81362218100DAB4F4 /* Cards-Info.plist */,
+				91AAE4A91362218100DAB4F4 /* InfoPlist.strings */,
+				91AAE4AC1362218100DAB4F4 /* Cards-Prefix.pch */,
+				91AAE4AD1362218100DAB4F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91AAE49B1362218100DAB4F4 /* Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91AAE4B71362218200DAB4F4 /* Build configuration list for PBXNativeTarget "Cards" */;
+			buildPhases = (
+				91AAE4981362218100DAB4F4 /* Sources */,
+				91AAE4991362218100DAB4F4 /* Frameworks */,
+				91AAE49A1362218100DAB4F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cards;
+			productName = Cards;
+			productReference = 91AAE49C1362218100DAB4F4 /* Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91AAE4931362218100DAB4F4 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 91AAE4961362218100DAB4F4 /* Build configuration list for PBXProject "Cards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91AAE4911362218100DAB4F4;
+			productRefGroup = 91AAE49D1362218100DAB4F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91AAE49B1362218100DAB4F4 /* Cards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91AAE49A1362218100DAB4F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AAE4AB1362218100DAB4F4 /* InfoPlist.strings in Resources */,
+				91AAE4B41362218200DAB4F4 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91AAE4981362218100DAB4F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AAE4AE1362218100DAB4F4 /* main.m in Sources */,
+				91AAE4B11362218100DAB4F4 /* CardsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91AAE4A91362218100DAB4F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91AAE4AA1362218100DAB4F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91AAE4B21362218200DAB4F4 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91AAE4B31362218200DAB4F4 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91AAE4B51362218200DAB4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91AAE4B61362218200DAB4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		91AAE4B81362218200DAB4F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cards/Cards-Prefix.pch";
+				INFOPLIST_FILE = "Cards/Cards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91AAE4B91362218200DAB4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cards/Cards-Prefix.pch";
+				INFOPLIST_FILE = "Cards/Cards-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91AAE4961362218100DAB4F4 /* Build configuration list for PBXProject "Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AAE4B51362218200DAB4F4 /* Debug */,
+				91AAE4B61362218200DAB4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91AAE4B71362218200DAB4F4 /* Build configuration list for PBXNativeTarget "Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91AAE4B81362218200DAB4F4 /* Debug */,
+				91AAE4B91362218200DAB4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91AAE4931362218100DAB4F4 /* Project object */;
+}
