@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class ScrollViewController;
 @interface CardsAppDelegate : NSObject <UIApplicationDelegate> {
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet ScrollViewController *viewController;
 
 @end
