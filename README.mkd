@@ -1,0 +1,8 @@
+# Cards
+
+A simple study on various iOS aspects:
+    -   UIScrollView
+    -   Data structures:
+        -   NSArray
+        -   NSMutableArray
+    -   Custom view controllers
