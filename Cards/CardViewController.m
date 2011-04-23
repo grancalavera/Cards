@@ -12,19 +12,17 @@ static NSString *cardNameKey = @"cardName";
 static NSString *cardImageKey = @"cardFile";
 
 @implementation CardViewController
-@synthesize cardImage;
-@synthesize cardName;
+@synthesize cardImageView;
 
 - (void) setCardWithObject:(NSObject *)object
 {
-    self.cardImage.image = [UIImage imageNamed:[object valueForKey:cardImageKey]];
-    self.cardName.text = [object valueForKey:cardNameKey];
+    self.cardImageView.image = [UIImage imageNamed:[object valueForKey:cardImageKey]];
+    cardName = [object valueForKey:cardNameKey];
 }
 
 - (void)dealloc
 {
-    [cardImage release];
-    [cardName release];
+    [cardImageView release];
     [super dealloc];
 }
 
@@ -46,8 +44,8 @@ static NSString *cardImageKey = @"cardFile";
 
 - (void)viewDidUnload
 {
-    [self setCardImage:nil];
-    [self setCardName:nil];
+    cardName = nil;
+    [self setCardImageView:nil];
     [super viewDidUnload];
 }
 

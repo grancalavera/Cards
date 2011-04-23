@@ -11,12 +11,11 @@
 
 @interface CardViewController : UIViewController 
 {
-    UIImageView *cardImage;
-    UILabel *cardName;
+    UIImageView *cardImageView;
+    NSString *cardName;
 }
 
-@property (nonatomic, retain) IBOutlet UIImageView *cardImage;
-@property (nonatomic, retain) IBOutlet UILabel *cardName;
+@property (nonatomic, retain) IBOutlet UIImageView *cardImageView;
 - (void) setCardWithObject:(NSObject *) object;
 
 @end
