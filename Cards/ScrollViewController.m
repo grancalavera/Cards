@@ -45,10 +45,11 @@
     for (int i=0; i < numberOfCards; i++) 
     {
         CardViewController *aCardController = [CardViewController alloc];
+        [scrollView addSubview:aCardController.view];
         CGRect frame = scrollView.frame;
         frame.origin.x = frame.size.width * i;
         frame.origin.y = 0;
-        [scrollView addSubview:aCardController.view];
+        aCardController.view.frame = frame;
         [aCardController setCardWithObject:[cards objectAtIndex:i]];
         [aCardController release];
     }

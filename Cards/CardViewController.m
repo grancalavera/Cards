@@ -49,8 +49,6 @@ static NSString *cardImageKey = @"cardFile";
     [self setCardImage:nil];
     [self setCardName:nil];
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

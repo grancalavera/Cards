@@ -29,7 +29,6 @@
 		91AAE5301362352300DAB4F4 /* c11.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4F91362352300DAB4F4 /* c11.png */; };
 		91AAE5311362352300DAB4F4 /* c12.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4FA1362352300DAB4F4 /* c12.png */; };
 		91AAE5321362352300DAB4F4 /* c13.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4FB1362352300DAB4F4 /* c13.png */; };
-		91AAE5331362352300DAB4F4 /* card_list.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4FC1362352300DAB4F4 /* card_list.plist */; };
 		91AAE5341362352300DAB4F4 /* cards.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4FD1362352300DAB4F4 /* cards.plist */; };
 		91AAE5351362352300DAB4F4 /* d01.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4FE1362352300DAB4F4 /* d01.png */; };
 		91AAE5361362352300DAB4F4 /* d02.png in Resources */ = {isa = PBXBuildFile; fileRef = 91AAE4FF1362352300DAB4F4 /* d02.png */; };
@@ -345,7 +344,6 @@
 				91AAE5301362352300DAB4F4 /* c11.png in Resources */,
 				91AAE5311362352300DAB4F4 /* c12.png in Resources */,
 				91AAE5321362352300DAB4F4 /* c13.png in Resources */,
-				91AAE5331362352300DAB4F4 /* card_list.plist in Resources */,
 				91AAE5341362352300DAB4F4 /* cards.plist in Resources */,
 				91AAE5351362352300DAB4F4 /* d01.png in Resources */,
 				91AAE5361362352300DAB4F4 /* d02.png in Resources */,
