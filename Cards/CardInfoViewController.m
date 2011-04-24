@@ -54,4 +54,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)done:(id)sender {
+    [self.delegate cardInfoViewControllerDidFinish:self]; // passing self
+}
+
 @end

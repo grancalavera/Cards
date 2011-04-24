@@ -11,8 +11,9 @@
 @protocol CardInfoDelegate;
 
 @interface CardInfoViewController : UIViewController {
-    
+
 }
+- (IBAction)done:(id)sender;
 @property (nonatomic, assign) id <CardInfoDelegate> delegate;
 @end
 

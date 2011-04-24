@@ -7,6 +7,7 @@
 //
 
 #import "CardViewController.h"
+#import "CardInfoViewController.h"
 
 static NSString *cardNameKey = @"cardName";
 static NSString *cardImageKey = @"cardFile";
@@ -30,7 +31,7 @@ static NSString *cardImageKey = @"cardFile";
 
 - (void)cardInfoViewControllerDidFinish:(CardInfoViewController *)controller
 {
-    NSLog(@"done with the card info");
+    [self dismissModalViewControllerAnimated:YES];
 }
 
 - (void)dealloc
