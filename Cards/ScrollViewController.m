@@ -15,6 +15,7 @@
 - (void)dealloc
 {
     [scrollView release];
+    [cardControllers release];
     [super dealloc];
 }
 
@@ -42,15 +43,20 @@
     scrollView.scrollsToTop = NO;
     scrollView.contentSize = CGSizeMake(scrollView.frame.size.width * numberOfCards, scrollView.frame.size.height);
     
+    cardControllers = [[NSMutableArray alloc] init ];
+    
     for (int i=0; i < numberOfCards; i++) 
     {
         CardViewController *aCardController = [CardViewController alloc];
+        [cardControllers addObject:aCardController];
+        
         [scrollView addSubview:aCardController.view];
         CGRect frame = scrollView.frame;
         frame.origin.x = frame.size.width * i;
         frame.origin.y = 0;
         aCardController.view.frame = frame;
         [aCardController setCardWithObject:[cards objectAtIndex:i]];
+        
         [aCardController release];
     }
 }

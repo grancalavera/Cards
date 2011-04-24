@@ -17,12 +17,17 @@ static NSString *cardImageKey = @"cardFile";
 - (void) setCardWithObject:(NSObject *)object
 {
     self.cardImageView.image = [UIImage imageNamed:[object valueForKey:cardImageKey]];
-    cardName = [object valueForKey:cardNameKey];
+    cardName = [[object valueForKey:cardNameKey] retain];
+}
+
+- (IBAction)showInfo:(id)sender {
+    NSLog(@"This is the %@", cardName);
 }
 
 - (void)dealloc
 {
     [cardImageView release];
+    [cardName release];
     [super dealloc];
 }
 

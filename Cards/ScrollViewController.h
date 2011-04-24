@@ -12,6 +12,7 @@
 @interface ScrollViewController : UIViewController <UIScrollViewDelegate> 
 {
     UIScrollView *scrollView;
+    NSMutableArray *cardControllers;
 }
 
 @property (nonatomic, retain) IBOutlet UIScrollView *scrollView;

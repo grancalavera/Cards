@@ -16,6 +16,9 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView *cardImageView;
+
 - (void) setCardWithObject:(NSObject *) object;
+- (IBAction)showInfo:(id)sender;
+
 
 @end

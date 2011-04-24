@@ -497,6 +497,7 @@
 				GCC_PREFIX_HEADER = "Cards/Cards-Prefix.pch";
 				INFOPLIST_FILE = "Cards/Cards-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
