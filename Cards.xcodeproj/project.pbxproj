@@ -80,6 +80,8 @@
 		91B35B861363751C00794102 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B35B851363751C00794102 /* Default@2x.png */; };
 		91B35B89136375A200794102 /* fabric-texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B35B87136375A200794102 /* fabric-texture.png */; };
 		91B35B8A136375A200794102 /* fabric-texture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91B35B88136375A200794102 /* fabric-texture@2x.png */; };
+		91F353A913645E7A0071AB3C /* CardInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F353A713645E7A0071AB3C /* CardInfoViewController.m */; };
+		91F353AA13645E7A0071AB3C /* CardInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91F353A813645E7A0071AB3C /* CardInfoView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +164,9 @@
 		91B35B851363751C00794102 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		91B35B87136375A200794102 /* fabric-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabric-texture.png"; sourceTree = "<group>"; };
 		91B35B88136375A200794102 /* fabric-texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabric-texture@2x.png"; sourceTree = "<group>"; };
+		91F353A613645E7A0071AB3C /* CardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CardInfoViewController.h; sourceTree = "<group>"; };
+		91F353A713645E7A0071AB3C /* CardInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardInfoViewController.m; sourceTree = "<group>"; };
+		91F353A813645E7A0071AB3C /* CardInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardInfoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +228,9 @@
 				91AAE5651362C1F700DAB4F4 /* CardViewController.h */,
 				91AAE5661362C1F700DAB4F4 /* CardViewController.m */,
 				91AAE5671362C1F700DAB4F4 /* CardViewController.xib */,
+				91F353A613645E7A0071AB3C /* CardInfoViewController.h */,
+				91F353A713645E7A0071AB3C /* CardInfoViewController.m */,
+				91F353A813645E7A0071AB3C /* CardInfoView.xib */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -416,6 +424,7 @@
 				91B35B861363751C00794102 /* Default@2x.png in Resources */,
 				91B35B89136375A200794102 /* fabric-texture.png in Resources */,
 				91B35B8A136375A200794102 /* fabric-texture@2x.png in Resources */,
+				91F353AA13645E7A0071AB3C /* CardInfoView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +439,7 @@
 				91AAE4B11362218100DAB4F4 /* CardsAppDelegate.m in Sources */,
 				91AAE4BD136221F000DAB4F4 /* ScrollViewController.m in Sources */,
 				91AAE5681362C1F800DAB4F4 /* CardViewController.m in Sources */,
+				91F353A913645E7A0071AB3C /* CardInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CardInfoViewController.h"
 
 
-@interface CardViewController : UIViewController 
+@interface CardViewController : UIViewController <CardInfoDelegate>
 {
     UIImageView *cardImageView;
     NSString *cardName;
