@@ -11,10 +11,13 @@
 @protocol CardInfoDelegate;
 
 @interface CardInfoViewController : UIViewController {
-
+    NSString *cardInfo;
+    UILabel *_cardInfoLabel;
 }
 - (IBAction)done:(id)sender;
+@property (nonatomic, retain) IBOutlet UILabel *cardInfoLabel;
 @property (nonatomic, assign) id <CardInfoDelegate> delegate;
+@property (nonatomic, retain) NSString *cardInfo;
 @end
 
 @protocol CardInfoDelegate

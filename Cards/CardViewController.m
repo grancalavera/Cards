@@ -24,6 +24,7 @@ static NSString *cardImageKey = @"cardFile";
 - (IBAction)showInfo:(id)sender {
     CardInfoViewController *cardInfoController = [[CardInfoViewController alloc] initWithNibName:@"CardInfoView" bundle:nil];
     cardInfoController.delegate = self;
+    cardInfoController.cardInfo = cardName;
     cardInfoController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentModalViewController:cardInfoController animated:YES];
     [cardInfoController release];
