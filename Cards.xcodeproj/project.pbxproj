@@ -164,7 +164,7 @@
 		91B35B851363751C00794102 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		91B35B87136375A200794102 /* fabric-texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabric-texture.png"; sourceTree = "<group>"; };
 		91B35B88136375A200794102 /* fabric-texture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fabric-texture@2x.png"; sourceTree = "<group>"; };
-		91F353A613645E7A0071AB3C /* CardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; path = CardInfoViewController.h; sourceTree = "<group>"; };
+		91F353A613645E7A0071AB3C /* CardInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardInfoViewController.h; sourceTree = "<group>"; };
 		91F353A713645E7A0071AB3C /* CardInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardInfoViewController.m; sourceTree = "<group>"; };
 		91F353A813645E7A0071AB3C /* CardInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardInfoView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -506,6 +506,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cards/Cards-Prefix.pch";
 				INFOPLIST_FILE = "Cards/Cards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = NO;
 				WRAPPER_EXTENSION = app;
@@ -520,6 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cards/Cards-Prefix.pch";
 				INFOPLIST_FILE = "Cards/Cards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
