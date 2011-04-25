@@ -58,8 +58,9 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-- (IBAction)done:(id)sender {
-    [self.delegate cardInfoViewControllerDidFinish:self]; // passing self
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [self.delegate cardInfoViewControllerDidFinish:self];
 }
 
 @end
